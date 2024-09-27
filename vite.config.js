@@ -7,7 +7,8 @@ export default defineConfig({
     proxy: {
       // Proxy API requests
       '/api': {
-        target: 'https://www.swiggy.com',
+        target: 'https://www.swiggy.com/mapi/misc_new/skeleton?lat=28.65200&lng=77.16630',
+        // target: 'https://www.swiggy.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },

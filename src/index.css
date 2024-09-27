@@ -100,3 +100,22 @@
 .search{
   padding: 10px;
 }
+.shimmer-container{
+  display: flex;
+}
+
+.shimmer-card{
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.login{
+   padding: 0 20px;
+   cursor: pointer;
+}
+
+.filter{
+  display: flex;
+}
