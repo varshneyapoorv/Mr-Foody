@@ -27,8 +27,8 @@ const Body = () => {
   const json = await data.json();
 
   // optional chaining
-  // setListOfRestaurants(json?.data?.cards[2]?.data?.data?.cards);
-  // setFilteredRestaurant(json?.data?.cards[2]?.data?.data?.cards);
+  setListOfRestaurants(json?.data?.cards[2]?.data?.data?.cards);
+  setFilteredRestaurant(json?.data?.cards[2]?.data?.data?.cards);
   };
 
   return listOfRestaurants.length === 0 ? (
